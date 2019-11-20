@@ -19,9 +19,9 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
+ # - page: rss
+  #  directory: atom.xml
+  #  icon: fa-rss
 
 # Sidebar
 widgets:
@@ -30,7 +30,7 @@ widgets:
   - tag
   - archive
   #- weibo
-  - links
+ # - links
 
 # Toc
 toc:
@@ -50,22 +50,22 @@ date_formats:
   tag: "YYYY/MM/DD"
 
 # Extensions
-Plugins:
-  hexo-generator-feed
-  hexo-generator-sitemap
-  hexo-generator-baidu-sitemap
+#Plugins:
+  #hexo-generator-feed
+ # hexo-generator-sitemap
+  #hexo-generator-baidu-sitemap
 
 #Feed Atom
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
+#feed:
+ # type: atom
+ # path: atom.xml
+ # limit: 20
 
 #sitemap
-sitemap:
-  path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
+#sitemap:
+ # path: sitemap.xml
+#baidusitemap:
+ # path: baidusitemap.xml
 
 #Local search
 local_search: true ## Use a javascript-based local search engine, true/false.
@@ -123,20 +123,20 @@ show_category_count: true ## If you want to show the count of categories in the 
 show_archive_count: true ## If you want to show the count of archives in the sidebar widget please set the value to true.
 show_archive_type: yearly ## defalut monthly
 widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
-busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
+# busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
 
 # About page
 about:
-  photo_url: ## Your photo e.g. http://cdn.chaooo.top/blog/themeauthor.jpg
+  photo_url: /img/avatar.jpg ## Your photo e.g. http://cdn.chaooo.top/blog/themeauthor.jpg
   items:
   - label: email
-    url: ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
-    title: ## Your email e.g.  zhenggchaoo@gmail.com
+    url: mailto:yangtzl@foxmail.com ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
+    title: yangtzl@foxmail.com ## Your email e.g.  zhenggchaoo@gmail.com
   - label: github
-    url: ## Your github'url e.g.  https://github.com/chaooo
-    title: ## Your github'name e.g.  chaooo
+    url: https://github.com/ytz3210 ## Your github'url e.g.  https://github.com/chaooo
+    title: yangtz ## Your github'name e.g.  chaooo
   - label: weibo
-    url: ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
+    url:  ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
     title: ## Your weibo's name e.g.  秋过冬漫长
 # - label: twitter
 #   url: 
@@ -146,10 +146,10 @@ about:
 #   title:
 
 # Links widget. Empty links will hide widget.
-links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+#links:
+ # - title: site-name1
+ #   url: http://www.example1.com/
+ # - title: site-name2
+ #   url: http://www.example2.com/
+ # - title: site-name3
+  #  url: http://www.example3.com/
