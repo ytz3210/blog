@@ -95,7 +95,7 @@ theme: BlueLake
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
+  type: git
   repo: https://github.com/ytz3210/ytz3210.github.io.git
   branch: master
 
